@@ -1,0 +1,77 @@
+html {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 1), 
+      rgba(255, 0, 0, 0.10)
+    ),
+    url(images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: repeat-x;
+}
+body{
+  display: flex;
+  flex-flow: column wrap;
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+  color: #ffc60b;
+}
+nav{
+
+  border: 0.1px solid black;
+}
+header{
+  text-align:center;
+}
+.flex-main{
+  display:flex;
+  flex-flow:row wrap;border: 0.1px solid yellow;
+}
+
+article{
+
+  --background: tomato;
+  flex: 1 1 30%;
+  font-family: 'Staatliches', cursive;
+  color: red;
+}
+.formulario{
+  padding-left: 20px;
+  
+}
+.boton-registro{
+  margin-left: auto;
+  align-self:
+}
+aside{
+  --background: green;
+  flex: 1 1 70%;
+
+}
+footer{
+  --background: skyblue;
+}
+ul{
+  padding:0;
+  margin: 0;
+  list-style-type:none;
+  display:flex;
+  flex-direction: row wrap;
+  justify-content: space-around ;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+}
+nav ul li{
+  cursor: pointer;
+  padding: 0.5rem;
+  flex:1 1 auto;
+  text-align: center;
+  color: white;
+}
+nav ul li:hover{
+  background-color: white;
+  color: #b34806;
+}
