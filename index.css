@@ -96,3 +96,10 @@ nav ul li:hover{
 .register-button{
   margin: 5px;
 }
+footer{
+  display: flex;
+  color: white;
+}
+footer img{
+  border-radius: 50%;
+}
