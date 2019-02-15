@@ -30,18 +30,28 @@
       <div class="formulario">
         <h2>Registrate</h2>
         <form>
-          Nombre:<br>
-          <input type="text" name="firstname"><br>
-          Apellidos<br>
-          <input type="text" name="lastname"><br>
-          Correo<br>
-          <input type="text" name="correo"><br>
-          Genero<br>
-          <input type="text" name="genero"><br>
-          Edad<br>
-          <input type="text" name="edad"><br>  
+          <!-- ul.form-container>(li*5>(label+input#.))+button.register-button -->
+          <ul class="form-container">
+            <li>
+              <label for="name-input">Name</label>
+              <input type="text" id="name-input" class="">
+            </li>
+            <li>
+              <label for="breed-input">Breed</label>
+              <input type="text" id="breed-input" class="">
+            </li>
+            <li>
+              <label for="country-input">Country</label>
+              <input type="text" id="country-input" class="">
+            </li>
+            <li>
+              <label for="gender-input">Gender</label>
+              <input type="text" id="gender-input" class="">
+            </li>
+            <button class="register-button">Register</button>
+          </ul>
         </form>
-        <button class="boton-registro">Registrar</button>
+
       </div> 
 
     </article>

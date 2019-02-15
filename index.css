@@ -34,7 +34,7 @@ header{
 article{
 
   --background: tomato;
-  flex: 1 1 30%;
+  flex: 1 1 40%;
   font-family: 'Staatliches', cursive;
   color: red;
 }
@@ -48,7 +48,7 @@ article{
 }
 aside{
   --background: green;
-  flex: 1 1 70%;
+  flex: 1 1 60%;
 
 }
 footer{
@@ -74,4 +74,10 @@ nav ul li{
 nav ul li:hover{
   background-color: white;
   color: #b34806;
+}
+
+.form-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
