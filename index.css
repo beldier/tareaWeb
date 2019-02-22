@@ -12,13 +12,15 @@ html {
   -o-background-size: cover;
   background-size: cover;
   background-repeat: repeat-x;
+  font-family: 'Zilla Slab', serif;
+
 }
 body{
   display: flex;
   flex-flow: column wrap;
 }
 h1{
-  font-family: 'Oswald', sans-serif;
+ 
   color: #bc2525;
 }
 nav{
@@ -37,12 +39,12 @@ article{
 
   --background: tomato;
   flex: 1 1 40%;
-  font-family: 'Staatliches', cursive;
+  
   color: red;
 }
 .formulario{
   padding-left: 20px;
-  
+  width: 50%; 
 }
 .boton-registro{
   margin-left: auto;
@@ -63,7 +65,7 @@ ul{
   display:flex;
   flex-direction: row wrap;
   justify-content: space-around ;
-  font-family: 'Staatliches', cursive;
+
   font-size: 20px;
 }
 nav ul li a{
@@ -131,11 +133,21 @@ footer img{
 }
 .intro-text{
   color:black;
+  font-size: 40px;
   background: lighten(green, 95%);
+ 
+
 }
 .intro-element > * {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
   align-self: center;
+}
+.register-form{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
