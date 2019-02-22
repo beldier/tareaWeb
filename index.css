@@ -115,3 +115,27 @@ footer{
 footer img{
   border-radius: 50%;
 }
+
+.intro-part{
+  min-height: 100vh;
+  display: flex;
+}
+.intro-element{
+  flex-grow: 1;
+  flex-shrink:  1;
+  flex-basis:  100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro-text{
+  color:black;
+  background: lighten(green, 95%);
+}
+.intro-element > * {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: center;
+}
