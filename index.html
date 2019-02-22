@@ -18,14 +18,29 @@
   </header>
   <nav>
      <ul class="container">
-       <li>Home</li>
-       <li>Worlds</li>
-       <li>Shop</li>
-       <li>Profile</li>
-       <li>Logout</li>
+       <li><a href="#intro">Introduction</a></li>
+       <li><a href="#explore">Explore</a></li>
+       <li><a href="#register">Register</a></li>
+       <li><a href="#credits">Credits</a></li>
      </ul>
   </nav>
-  <main class="flex-main">
+  <section class="flex-main" id="intro">
+    <article class="article"> 
+      <p>Russia is one of the most unique places in world where you can see from 
+          well formed comrades to strangest rides during the day 
+      </p>
+
+    </article>
+
+    <aside class="aside">
+        <div class="img-container">
+          <img name="slide" width="200" height="200">
+          <button class="btn" onclick="prev()"><</button>
+          <button class="btn" onclick="next()">></button>
+        </div>  
+    </aside>
+  </section>
+  <section class="flex-main" id="explore">
     <article class="article"> 
       <div class="formulario">
         <h2>Registrate</h2>
@@ -66,8 +81,50 @@
           <button class="btn" onclick="next()">></button>
         </div>  
     </aside>
-  </main>
-  <footer class="footer">
+  </section>
+  <section class="flex-main" id="register">
+    <article class="article"> 
+      <div class="formulario">
+        <h2>Registrate</h2>
+        <form>
+          <!-- ul.form-container>(li*5>(label+input#.))+button.register-button -->
+          <ul class="form-container">
+            <li class="list-item">
+              <label for="name-input">Name</label>
+              <input type="text" id="name-input" class="">
+            </li>
+            <li class="list-item">
+              <label for="breed-input">Breed</label>
+              <input type="text" id="breed-input" class="">
+            </li>
+            <li class="list-item">
+              <label for="country-input">Country</label>
+              <input type="text" id="country-input" class="">
+            </li>
+            <li class="list-item">
+              <label for="gender-input">Gender</label>
+              <input type="text" id="gender-input" class="">
+            </li>
+            <li class="list-item-buttons">
+              <button class="register-button">Register</button>
+              <button class="register-button">Cancel</button>
+            </li>
+          </ul>
+        </form>
+
+      </div> 
+
+    </article>
+
+    <aside class="aside">
+        <div class="img-container">
+          <img name="slide" width="200" height="200">
+          <button class="btn" onclick="prev()"><</button>
+          <button class="btn" onclick="next()">></button>
+        </div>  
+    </aside>
+  </section>
+  <footer class="footer" id="credits">
       <img src="images/ivan.jpg" alt="Avatar" width="100" height="100">
       <div>
         <p>Hecho por : Alvaro</p>

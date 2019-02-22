@@ -1,10 +1,12 @@
 html {
-  background:
+  /*background:
     linear-gradient(
       rgba(0, 0, 0, 1), 
       rgba(255, 0, 0, 0.10)
     ),
     url(images/background.jpg) no-repeat center center fixed;
+  */
+  background: #eaeaea;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -17,10 +19,10 @@ body{
 }
 h1{
   font-family: 'Oswald', sans-serif;
-  color: #ffc60b;
+  color: #bc2525;
 }
 nav{
-
+ 
   border: 0.1px solid black;
 }
 header{
@@ -64,16 +66,26 @@ ul{
   font-family: 'Staatliches', cursive;
   font-size: 20px;
 }
+nav ul li a{
+  cursor: default;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  display: block;
+  padding: 0.5rem;
+}
 nav ul li{
   cursor: pointer;
-  padding: 0.5rem;
+  padding: 0px;
   flex:1 1 auto;
   text-align: center;
-  color: white;
+  color: #0c005a;
 }
 nav ul li:hover{
-  background-color: white;
-  color: #b34806;
+  background-color: #0c005a;
+  color: #ff0000;
 }
 
 .form-container{
